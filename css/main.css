@@ -262,7 +262,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.5em;
   margin-bottom: 10vh;
 }
-
+.sectionHeader2{
+  background-color: linear-gradient(260deg, #00aa00 0%, #2282ff 100%);
+}
 #social {
   display: flex;
   flex-direction: row;
