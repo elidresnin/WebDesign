@@ -19,14 +19,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /*NAVBAR*/
 #nav {
-  padding-bottom: 10px;
+  padding-bottom: 7px;
   position: fixed;
   box-sizing: border-box;
   overflow-x: hidden;
   width: 100%;
   z-index: 2;
   font-size: 18px;
-  background-image: linear-gradient(260deg, #00aa00 0%, #0050b9 100%);
+  background-image: linear-gradient(260deg, #00a4aa 0%, #034ba8 100%);
 }
 
 #main-nav {
@@ -129,8 +129,37 @@ h1, h2, h3, h4, h5, h6 {
 
 /*SECTION HEADERS*/
 #workHeader {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  height: 100vh;
   background-image: url("../img/products.png");
+  background-size: cover;
 }
+
+#nameOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  margin: 0 auto;
+  font-size: 2em;
+  text-align: center;
+  background-color: grey;
+  color: white;
+  padding: 0 2vw;
+}
+
 
 
 /*HERO SECTION*/
@@ -139,11 +168,13 @@ h1, h2, h3, h4, h5, h6 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50vh;
+  height: 300vh;
   width: 100%;
   height: 100vh;
-  background-image: url("../img/phone_bars_new.png");
+  background-image: url("../img/New_Background.png");
   background-size: cover;
+  margin-top: 6vh;
+  padding-top: 0vh
 }
 
 #nameOverlay {
@@ -306,3 +337,28 @@ justify-content: center;
   border-collapse: collapse;
 }
 
+/*TRAIL SECTION*/
+#trail {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300vh;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/nanotrail68.99.png");
+  background-size: cover;
+  margin-top: 6vh;
+  padding-top: 0vh
+}
+
+#nameOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
